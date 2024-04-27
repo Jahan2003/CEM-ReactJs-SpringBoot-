@@ -1,0 +1,62 @@
+.vertical-event-card {
+    display: flex;
+    max-width: 20vw;
+    height:48vh;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+  }
+  .vertical-event-card:hover{
+    cursor: pointer;
+  }
+  
+  .event-info {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .event-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .event-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .event-features {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+  .event-features li {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 5px;
+  }
+  
+  .more-features {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .starting-price {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .vertical-event-card.selected {
+    border: 2px solid #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }

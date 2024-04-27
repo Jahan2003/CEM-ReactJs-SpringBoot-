@@ -1,0 +1,221 @@
+    /* login.css */
+
+    /* Base styles */
+    #parent{
+        width:100vw;
+        height:100vh;
+        background-color: #f5f6fe;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #login-outer-box {
+        width:80vw;
+        height:80vh;
+        background-color: white;
+        display:flex;
+        flex-direction: row;
+        border-radius:20px;
+    }
+    #login-outer-box-reg{
+        width:80vw;
+        height:94vh;
+        background-color: white;
+        display:flex;
+        flex-direction: row;
+        border-radius:20px;
+        padding:5vh 0vh;
+    }
+    #image-box{
+        height:75vh;
+        max-width:50vw;  
+        display: flex;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right:5vw;
+    }
+    #image-box img{
+        position: relative;
+        height:100%;
+        width:100%;
+        border-radius: 20px;
+    }
+    #login-head{
+        font-size:40px;
+        color:#5d5fe7;
+        margin-bottom:2vh;
+    }
+    #form-box-login{
+        display:flex;
+        flex:1;
+        flex-direction:column;
+        height:80vh;
+        max-width:50vw;
+        margin-left:5vw;
+        margin-right:5vw;
+        justify-content: center;
+    }
+    #signIn{
+        margin-top:0vw;
+        color:#949aae;
+        font-weight: 100;
+        margin-bottom:2.5vh;
+    }
+    #form-box-login{
+        display:flex;
+        flex:1;
+        flex-direction:column;
+        height:80vh;
+        max-width:50vw;
+        margin-left:5vw;
+        margin-right:5vw;
+        justify-content: center;
+    }
+    #form-box-reg{
+        display:flex;
+        flex:1;
+        flex-direction:column;
+        height:80vh;
+        max-width:50vw;
+        margin-left:5vw;
+        margin-right:5vw;
+        justify-content: center;
+        margin-top: 2vh;
+    }
+    #text-on-image{
+        position: absolute;
+        top:43%;
+        left: 46.5%;
+        /* bottom: 50%; */
+    }
+    #background{
+        position: absolute;
+        width:39.8%;
+        height:75%;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.348);
+    }
+    
+    /* form {
+        margin: 0 auto; 
+    } */
+    
+    /* Styles for the form inputs and labels */
+    #parent label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size:15px;
+        color:rgb(75, 75, 75);
+    }
+    
+    #parent input {
+        width:25vw;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .email-field{
+        margin-bottom: 10px
+    }
+    .password-field {
+        margin-bottom: 10px; 
+    }
+    .mobile-field{
+        margin-bottom: 10px;
+    }
+    .confirm-password-field{
+        margin-bottom: 10px;
+    }
+    .password-input {
+        position: relative;
+    }
+    
+    .password-input input {
+        padding-right: 40px;
+    }
+    .organization-field{
+        margin-bottom: 10px;
+    }
+    .name-field{
+        margin-bottom: 10px;
+    }
+    .eye-icon {
+        position: absolute;
+        top: 50%;
+        left:90%;
+        transform: translateY(-70%);
+        cursor: pointer;
+        width: 20px; 
+    }
+    .error{
+        color:red;
+        font-size:12px;
+    }
+    #form-box-login button{
+        background-color:#5d5fe7;
+        padding:10px;
+        border:none;
+        border-radius:5px;
+        width:25vw;
+        color:white;
+        font-size:16px;
+        font-weight:medium;
+        margin-bottom: 2vh;
+    }
+    #sign-up-login{
+        width:25vw;
+        text-align: center;
+    }
+   #parent span{
+        color:#5d5fe7;
+        font-weight: bold;
+    }
+    /* Responsive styles */
+    @media screen and (min-width: 768px) {
+        /* For screens larger than 768px wide */
+        #login-outer-box {
+        justify-content: center; /* Center login outer box horizontally */
+        }
+        
+        #form-box {
+        width: auto; /* Reset width to auto for larger screens */
+        
+        }
+    }
+    /* Responsive styles */
+@media screen and (max-width: 768px) {
+    /* For screens up to 768px wide */
+    #login-outer-box {
+        width: 90vw;
+        height: auto; /* Adjust height as needed */
+    }
+
+    #image-box {
+        display: none; /* Hide image box on smaller screens */
+    }
+
+    #form-box {
+        max-width: none; /* Reset max-width for smaller screens */
+        padding-left:3vw; 
+        align-items: center; /* Center form vertically */
+        margin-left: 0;
+    }
+
+    input {
+        width: 80vw; /* Adjust input width for smaller screens */
+    }
+
+    .eye-icon {
+        left: 85%; /* Adjust eye icon position */
+    }
+
+    #submit {
+        width: 80vw; /* Adjust button width */
+    }
+
+    #sign-up-login {
+        width: 80vw; /* Adjust sign-up/login width */
+    }
+}

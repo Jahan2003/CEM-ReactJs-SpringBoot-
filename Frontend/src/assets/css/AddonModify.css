@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App-mod{
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 8vh;
+  }
+  #addon-title{
+    margin-bottom: 2vh;
+  }
+  h1 {
+    text-align: center;
+    color: #5d5fe7;
+  }
+  
+  .addons-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .addon {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .addon-details {
+    margin-bottom: 15px;
+  }
+  
+  .addon-details span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #5d5fe7;
+  }
+  
+  .addon-details p {
+    margin: 0;
+  }
+  
+  .addon button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #5d5fe7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addon button:hover {
+    background-color: #3f3fa1;
+  }
+  
+  .selected-addons {
+    margin-top: 30px;
+  }
+  
+  .selected-addons h2 {
+    color: #5d5fe7;
+  }
+  
+  .selected-addons .addon {
+    margin-top:1.5vh;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .selected-addons .addon button {
+    background-color: #f44336;
+  }
+  
+  .selected-addons .addon button:hover {
+    background-color: #d32f2f;
+  }
+  #add-addon{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+  }
+  #add-addon button{
+    display: block;
+    width: 20vw;
+    padding: 10px;
+    background-color: #5d5fe7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }

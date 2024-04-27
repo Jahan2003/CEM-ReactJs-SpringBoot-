@@ -1,0 +1,15 @@
+#event-book{
+  margin-top: 13vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#title{
+  color:#5d5fe7;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+#booked-events-title{
+  margin-bottom: 2vh;
+}

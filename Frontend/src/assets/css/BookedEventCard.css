@@ -1,0 +1,62 @@
+.booked-event-card {
+    display: flex;
+    width: 60vw;
+    /* height: 20vh; */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding:10px 40px 10px 15px;
+    padding-bottom: 30px;
+  }
+  
+  .booked-event-card:hover {
+    cursor: pointer;
+  }
+  
+  .event-info {
+    padding: 20px 20px;
+    flex: 1;
+    margin-bottom:20px;
+  }
+  
+  .booked-event-card h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .booked-event-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap:1rem
+  }
+  
+  .enquiry-button {
+    padding: 20px;
+    margin-top: auto; /* Push the button to the bottom */
+  }
+  
+  .booked-event-card button{
+    background-color: #5d5fe7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px; /* Add margin for spacing */
+  }
+  
+  button:hover {
+    background-color: #33348a;
+  }
+  

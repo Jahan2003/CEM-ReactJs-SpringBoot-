@@ -1,0 +1,56 @@
+.image-carousel {
+  max-width: 100vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-slide {
+  position: relative;
+}
+.slick-slide img {
+  position:relative;
+  width: 100vw;
+  height:90vh; 
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.5s ease; /* Transition for opacity */
+}
+
+.overlay.active {
+  opacity: 1; /* Show overlay when active */
+}
+
+.overlay h2 {
+  margin: 0;
+}
+
+.slick-slide {
+  overflow: hidden; /* Hide overflow to prevent overlay from appearing outside slide */
+}
+
+.slick-active .overlay {
+  opacity: 1; /* Show overlay for active slide */
+  animation: fadeIn 0.5s ease; /* Fade in animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

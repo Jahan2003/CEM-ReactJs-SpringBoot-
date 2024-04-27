@@ -1,0 +1,72 @@
+.payment-summary {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  /* font-family: Arial, sans-serif; */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.payment-summary h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.summary-details {
+  margin-bottom: 20px;
+}
+
+.detail {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 10px;
+  width: 150px;
+}
+
+.addons {
+  align-items: flex-start;
+}
+
+.addons ul {
+  list-style-type:none;
+  padding: 0;
+  margin:0;
+  margin-left: -20px;
+}
+
+.addons ul li {
+  margin-left: 20px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.total-price {
+  border-top: 2px solid #ccc;
+  padding-top: 20px;
+}
+
+.total-price h2 {
+  margin-bottom: 10px;
+}
+
+.breakdown {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.grand-total {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+#list-add1{
+  padding:0.5vh 0;
+}
+#list-add2{
+  margin-top: 3.1vh;
+}
