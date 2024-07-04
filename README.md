@@ -35,4 +35,4 @@ CEMS is built using modern technologies to provide a robust and user-friendly ex
 - **Frontend**: Developed using React.js, a popular JavaScript library for building interactive user interfaces.
 - **Backend**: Powered by Spring Boot, a lightweight Java framework for building enterprise-level applications.
 - **Database**: Utilizes PostgreSQL, a powerful open-source relational database management system, for storing event and user data securely.
-- **Payment Gateway**: Integrated with Razorpay, a leading payment gateway in India, to facilitate secure online payments for event bookings .
+- **Payment Gateway**: Integrated with Razorpay, a leading payment gateway in India, to facilitate secure online payments for event bookings.
